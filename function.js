@@ -134,8 +134,8 @@ setTimeout(() => {
    console.log("heelo")
 }, 5000); 
 
-  //                             Create an IIFE that prints "Executed".
-//   (function imdiate() {
-//     console.log("excuted");
-//   },
-// )();
+//                             Create an IIFE that prints "Executed".
+(function imdiate() {
+    console.log("excuted");
+  },
+)();
